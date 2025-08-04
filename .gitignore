@@ -1,0 +1,18 @@
+# Artefatos Angular
+/frontend/dist
+/frontend/node_modules
+/.angular/cache
+
+# Artefatos .NET
+/backend/bin
+/backend/obj
+*.csproj.user
+*.suo
+
+# Variáveis de ambiente
+.env
+appsettings.Development.json
+
+# Logs e cache
+npm-debug.log*
+*.log
