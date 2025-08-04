@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+
+namespace Desafio;
+
 public class Empresa
 {
     public Guid Id { get; set; }

@@ -1,3 +1,7 @@
+using System;
+
+namespace Desafio;
+
 public class Fornecedor
 {
     public Guid Id { get; set; }

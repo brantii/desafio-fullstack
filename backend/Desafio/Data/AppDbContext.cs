@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 
-public class AppDbContext : DbContext
-{
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
+namespace Desafio.Data;
 
+public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
+{
     public DbSet<Empresa> Empresas => Set<Empresa>();
     public DbSet<Fornecedor> Fornecedores => Set<Fornecedor>();
 }

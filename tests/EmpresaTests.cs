@@ -1,5 +1,7 @@
 using Xunit;
 
+namespace Desafio.Tests;
+
 public class EmpresaTests
 {
     [Fact]

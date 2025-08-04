@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Desafio.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Desafio.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.EmpresaController",
+    "Method": "Get",
+    "RelativePath": "api/Empresa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.EmpresaController",
+    "Method": "Post",
+    "RelativePath": "api/Empresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresa",
+        "Type": "Desafio.Empresa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.FornecedorController",
+    "Method": "Get",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Desafio.Controllers.FornecedorController",
+    "Method": "Post",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fornecedor",
+        "Type": "Desafio.Fornecedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
