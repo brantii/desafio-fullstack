@@ -3,23 +3,41 @@
   "version": "0.0.1",
   "scripts": {
     "start": "ng serve",
-    "build": "ng build"
+    "build": "ng build",
+    "postinstall": "ngcc --properties es2015 browser module main"
   },
   "dependencies": {
-    "@angular/common": "^17.0.0",
-    "@angular/core": "^17.0.0",
-    "@angular/forms": "^17.0.0",
-    "@angular/platform-browser": "^17.0.0",
-    "@angular/platform-browser-dynamic": "^17.0.0",
-    "@angular/router": "^17.0.0",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.13.0"
+    "@angular/common": "17.3.12",
+    "@angular/core": "17.3.12",
+    "@angular/forms": "17.3.12",
+    "@angular/platform-browser": "17.3.12",
+    "@angular/platform-browser-dynamic": "17.3.12",
+    "@angular/router": "17.3.12",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "rxjs": "7.8.1",
+    "setimmediate": "^1.0.5",
+    "tslib": "2.6.2",
+    "zone.js": "0.14.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.0",
-    "@angular/cli": "^17.0.0",
-    "@angular/compiler-cli": "^17.0.0",
-    "typescript": "~5.2.0"
+    "@angular-devkit/build-angular": "^20.1.4",
+    "@angular/cli": "17.3.12",
+    "@angular/compiler-cli": "17.3.12",
+    "@types/node": "18.16.3",
+    "typescript": "5.4.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "crypto": false,
+    "buffer": false,
+    "process": false,
+    "setImmediate": false
+  },
+  "engines": {
+    "node": ">=21.7.1",
+    "npm": ">=9.0.0"
   }
 }
