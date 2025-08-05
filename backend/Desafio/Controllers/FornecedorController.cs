@@ -4,6 +4,8 @@ using Desafio.Data;
 using Desafio.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+
 
 namespace Desafio.Controllers
 {
